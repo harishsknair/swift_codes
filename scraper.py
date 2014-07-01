@@ -8,8 +8,8 @@ from scraperwiki import sqlite
 
 url = 'http://www.swiftcodesinfo.com/search-swift.php?country=%s' % 'AFGHANISTAN'
 
-BASE_URL= 'http://www.swiftcodesinfo.com'
-SWIFT_URL = 'http://www.swiftcodesinfo.com/swift-code/index.php'
+BASE_URL= 'http://www.ifscswiftcodes.com/SWIFT-Codes/'
+SWIFT_URL = 'http://www.ifscswiftcodes.com/SWIFT-Codes/index.htm'
 
 COUNTRY_PATTERN = """{* <td style="width:20%"><a href='{{ [countries].link|abs }}' title="Swift Code of{{ [countries].name }}" class="s"></a></td> *}"""
 
